@@ -1,0 +1,16 @@
+custom.entity_autocomplete:
+  path: '/admin/entity_autocomplete'
+  defaults:
+    _form: '\Drupal\entity_autocomplete\Form\AutocompleteForm'
+    _title: 'Custom Entity Autocomplete '
+  requirements:
+    _permission: 'access content'
+
+autocomplete.node:
+  path: '/admin/autocomplete/node'
+  defaults:
+    _controller: '\Drupal\entity_autocomplete\Controller\NodeAutoCompleteController::handleAutocomplete'
+    _title: 'Custom Entity Autocomplete '
+    _format: json
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,6 @@
+name: Entity Autocomplete
+description: 'This is Custom Module Entity Autocomplete.'
+type: module
+package: custom
+core: 8.x
+version: 8.x
